@@ -1,0 +1,1 @@
+POSTGRES_DB='postgresql://catalog:Ca1a5o8@127.0.0.1/catalog'
