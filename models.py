@@ -79,6 +79,6 @@ class Item(Base):
                 "name": self.name,
                 "description": self.description }
 
-engine = create_engine('POSTGRES_DB')
+engine = create_engine(POSTGRES_DB)
 #Base.metadata.bind = engine
 Base.metadata.create_all(engine)
